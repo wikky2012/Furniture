@@ -1,6 +1,47 @@
 body{
-    background-color: lavender;
+    background-color:lavender;
 }
 p{
     color: black;
+}
+.header {
+    padding: 10px;
+    text-align: center;
+    background: #1abc9c;
+    color:brown;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;  
+  }
+  .links{
+      background-color:white;
+      color: maroon;
+      font-size: 20px;
+      text-align: right;
+      padding-right: 3px;
+  }
+  a:hover{
+      background-color: yellow;
+  }
+  a{
+      background-color:transparent;
+      border-radius: 3px;
+  }
+.portfolio{
+    display: flex;
+}
+div img{
+    padding-right:20px;
+}
+h2{
+    color:red;
+}
+.welcomemsg{
+    background-color: darkgoldenrod;
 }
