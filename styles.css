@@ -27,14 +27,15 @@ p{
       padding-right: 3px;
   }
   a:hover{
-      background-color: yellow;
+      background-color: red;
   }
   a{
       background-color:transparent;
       border-radius: 3px;
   }
-.portfolio{
+.portfolio {
     display: flex;
+    position: relative;
 }
 div img{
     padding-right:20px;
@@ -45,3 +46,20 @@ h2{
 .welcomemsg{
     background-color: darkgoldenrod;
 }
+.portfolio {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .seats{
+background-color: darkkhaki;
+  }
+  h1{
+      text-align:center;
+  }
+  .shoe{
+      background-color: lightblue;
+  }
+  .tv{
+      background-color: olive;
+  }
