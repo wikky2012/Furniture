@@ -3,6 +3,7 @@ body{
 }
 p{
     color: black;
+    margin:0PX;
 }
 .header {
     padding: 10px;
@@ -14,10 +15,11 @@ p{
     flex-direction: row;
   }
   footer {
-    text-align: center;
+    text-align: left;
     padding: 3px;
-    background-color: DarkSalmon;
+    background-color: lightsteelblue;
     color: white;  
+    
   }
   .links{
       background-color:white;
@@ -36,6 +38,7 @@ p{
 .portfolio {
     display: flex;
     position: relative;
+    justify-content: space-around;
 }
 div img{
     padding-right:20px;
@@ -50,17 +53,40 @@ h2{
     position: relative;
     max-width: 800px;
     margin: 0 auto;
+    justify-content: space-around;
   }
   .seats{
 background-color: darkkhaki;
+justify-content: space-around;
+  }
+  .table img{
+      background-color:DarkSalmon;
+      justify-content: space-evenly;
+  }
+  .table{
+      background-color: rosybrown;
   }
   h1{
       text-align:center;
-      color:red;
+      color:white;
   }
   .shoe{
       background-color: lightblue;
   }
-  .tv{
-      background-color: olive;
+  .tv img{
+      background-color: peru;
+      justify-content: space-around;
   }
+  .tv{
+    background-color: palegoldenrod;
+  }
+  marquee{
+      background-image: url("images/background.jpeg");
+  }
+ .logos{
+     padding-right: 10px;
+ }
+ .bed{
+     justify-content: space-evenly;
+     background-color: steelblue;
+ }
