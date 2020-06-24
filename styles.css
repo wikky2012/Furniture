@@ -82,6 +82,8 @@ justify-content: space-around;
   }
   marquee{
       background-image: url("images/background.jpeg");
+      padding:20px;
+      font-size:15px;
   }
  .logos{
      padding-right: 10px;
@@ -90,3 +92,12 @@ justify-content: space-around;
      justify-content: space-evenly;
      background-color: steelblue;
  }
+ img title{
+     background-color: white;
+     color:red;
+ }
+.about{
+   margin: 40px 40px 40px 40px;
+   background-color: yellowgreen;
+   padding:20%;
+}
