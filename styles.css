@@ -83,7 +83,7 @@ justify-content: space-around;
   marquee{
       background-image: url("images/background.jpeg");
       padding:20px;
-      font-size:15px;
+      font-size:25px;
   }
  .logos{
      padding-right: 10px;
@@ -100,4 +100,19 @@ justify-content: space-around;
    margin: 40px 40px 40px 40px;
    background-color: yellowgreen;
    padding:20%;
+}
+.intro{
+    background-color: lawngreen;
+    font-size: 20px;
+    padding: 30px;
+}
+.contacts{
+float: left;
+}
+.product{
+float: right;
+}
+.support{
+float: center;
+padding-left: 40%;
 }
