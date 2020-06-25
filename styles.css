@@ -48,6 +48,7 @@ h2{
 }
 .welcomemsg{
     background-color: darkgoldenrod;
+    padding-top: 0%;
 }
 .portfolio {
     position: relative;
@@ -81,9 +82,11 @@ justify-content: space-around;
     background-color: palegoldenrod;
   }
   marquee{
-      background-image: url("images/background.jpeg");
-      padding:20px;
-      font-size:25px;
+    background-image: url("images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1300px 200px;
+    padding:15px;
+    font-size:25px;
   }
  .logos{
      padding-right: 10px;
@@ -111,8 +114,12 @@ float: left;
 }
 .product{
 float: right;
+padding-right: 4%;
 }
 .support{
 float: center;
 padding-left: 40%;
+}
+p{
+    padding-top: 0%;
 }
